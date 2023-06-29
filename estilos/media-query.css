@@ -9,7 +9,7 @@ Tablet: 768px até 992px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 700px) and (max-width: 1000px) {
+@media screen and (min-width: 700px) and (max-width: 1000px) {  /*-- Para Tablets --*/
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -27,7 +27,7 @@ Grandes telas: acima de 1200px
     
     section#login {
         width: 80vw;
-        height: 93vh;
+        height: 350px;
     }
 
     section#login > div#img {
@@ -42,13 +42,14 @@ Grandes telas: acima de 1200px
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {  /*-- Para Telas grandes --*/
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     h1 {
         text-align: center;
+        margin-top: 20px;
         margin-bottom: 10px;
         font-size: 2em;
     }
@@ -60,6 +61,7 @@ Grandes telas: acima de 1200px
     
     section#login {
         width: 980px;
+        height: 400px;
     }
 
     section#login > div#img {
